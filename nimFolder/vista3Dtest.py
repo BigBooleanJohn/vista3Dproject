@@ -12,7 +12,7 @@ headers = {
 }
 
 sample = "example-1"
-# in future, run each image from dataset individually within payload dictionary
+# in future, run each image from dataset individually within payload dict
 payload = {
     "image": f"https://assets.ngc.nvidia.com/products/api-catalog/vista3d/{sample}.nii.gz",
     "prompts": {
